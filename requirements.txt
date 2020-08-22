@@ -10,6 +10,8 @@ pip install pytorch_toolbelt
 pip install torch torchvision
 #pytorch-lightning
 pip install pytorch-lightning
+#neptune client
+pip install neptune-client
 #apex
 git clone https://github.com/NVIDIA/apex
 cd apex
