@@ -1,11 +1,13 @@
-#albumentations
+#albumentations: tested on 0.4.6
 pip install -U git+https://github.com/albumentations-team/albumentations
-#iglovikov_helper_functions
+#iglovikov_helper_functions: tested on 0.0.40  
 pip install -U git+https://github.com/ternaus/iglovikov_helper_functions
 #pytorch_toolbelt
 pip install pytorch_toolbelt
 #torch
 pip install torch torchvision
+#pytorch-lightning
+pip install pytorch-lightning
 #apex
 git clone https://github.com/NVIDIA/apex
 cd apex
