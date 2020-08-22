@@ -1,4 +1,14 @@
-albumentations
-iglovikov_helper_functions
-pytorch_toolbelt
-torch
+#albumentations
+pip install -U git+https://github.com/albumentations-team/albumentations
+#iglovikov_helper_functions
+pip install -U git+https://github.com/ternaus/iglovikov_helper_functions
+#pytorch_toolbelt
+pip install pytorch_toolbelt
+#torch
+pip install torch torchvision
+#apex
+git clone https://github.com/NVIDIA/apex
+cd apex
+# !pip install -v --no-cache-dir --global-option="--cpp_ext" --global-option="--cuda_ext" ./
+pip install -v --no-cache-dir ./
+cd ..
