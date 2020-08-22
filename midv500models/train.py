@@ -14,9 +14,9 @@ from pytorch_lightning.loggers import NeptuneLogger
 from pytorch_toolbelt.losses import JaccardLoss, BinaryFocalLoss
 from torch.utils.data import DataLoader
 
-from midv500models.dataloaders import SegmentationDataset
-from midv500models.metrics import binary_mean_iou
-from midv500models.utils import get_samples, load_checkpoint
+from dataloaders import SegmentationDataset
+from metrics import binary_mean_iou
+from utils import get_samples, load_checkpoint
 
 
 def get_args():
