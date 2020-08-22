@@ -39,8 +39,8 @@ class SegmentDocs(pl.LightningModule):
         self.hparams = hparams
 
         self.model = object_from_dict(self.hparams["model"])
-        if "resume_from_checkpoint" in self.hparams:
-            corrections: Dict[str, str] = {"model.": ""}
+        # if "resume_from_checkpoint" in self.hparams:
+        #     corrections: Dict[str, str] = {"model.": ""}
 
             checkpoint = load_checkpoint(
                 file_path=self.hparams["resume_from_checkpoint"],

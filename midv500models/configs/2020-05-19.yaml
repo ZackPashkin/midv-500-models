@@ -14,9 +14,9 @@ model:
 trainer:
   type: pytorch_lightning.Trainer
   early_stop_callback: False
-  default_save_path: ./
-  gpus: 2
-  use_amp: True
+  #default_save_path: ./
+  gpus: 1
+  #use_amp: True
   amp_level: O1
   max_epochs: 40
   weights_summary: top
