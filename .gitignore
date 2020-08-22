@@ -130,3 +130,7 @@ dmypy.json
 
 # ide
 .idea/
+
+# pre commit stuff
+.pre-commit-config.yaml
+.deepsource.toml
