@@ -169,7 +169,7 @@ def main():
 
     logger = NeptuneLogger(
         api_key=os.environ["NEPTUNE_API_TOKEN"],
-        project_name="ternaus/documentsegmentation",
+        project_name="zackpashkin/sandbox",
         experiment_name=f"{hparams['experiment_name']}",  # Optional,
         tags=["pytorch-lightning", "mlp"],  # Optional,
         upload_source_files=[],
